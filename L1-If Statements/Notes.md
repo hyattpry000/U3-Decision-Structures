@@ -1,5 +1,7 @@
 # Unit 3 - Decision Structures
 
+## [**MovieTickets Sandbox**][sandbox]
+
 ## If Statements
 
 Thus far, our programs have executed linearly. However, programs are able to branch, create many possible outcomes based on user input. In other words, programs can make decisions. 
@@ -59,7 +61,7 @@ public class MovieTickets {
 }
 ```
 
-Keep in mind that if-statements will execute linearly if their boolean-expressions are true.
+Keep in mind that if-statements will execute linearly if their boolean-expressions are true. Let's explore this [**Sandbox**][sandbox] :
 
 Let's look at a Grading program in the [**Grades**][grades]
 

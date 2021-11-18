@@ -1,7 +1,5 @@
 # Unit 3 - Decision Structures
 
-## [**L5 Sandbox**][sandbox]
-
 ## Logical Operators
 
 [**Logical Operators**](https://www.tutorialspoint.com/java/java_logical_operators_examples.htm) combines boolean expressions using the **AND**(`&&`), **OR**(`||`) or **NOT**(`!`). These larger expressions, called [**compound boolean expressions**](), also evaluate to either `true` or `false` depending on whether the boolean expressions are `true` or `false`. 
@@ -86,6 +84,8 @@ public class L5{
 ``` 
 Oftentimes, programmers look for ways to shorten the code and make it more readable. `license == true` is redundant code and can be shortened to just `license` since the value is either true or false. You could also remove the brackets in the if-statement since there is only one statement after the `if` and `else`. If we had multiple statements, we would HAVE to use brackets. 
 
+Let's look at [**PizzaCost**][pizza]
+
 ### OR
 
 Let's look at another logical statement:
@@ -151,6 +151,7 @@ public class L5{
     }
 }
 ``` 
+Let's look at [**GameOver**][gameover]
 
 ### NOT
 
@@ -186,4 +187,5 @@ Notice that the **AND** statement is enclosed in parenthesis, and the **NOT** op
 
 `(!x + y) != !(x + y)`
 
-[sandbox]:../L5.java
+[pizza]:./src/PizzaCost.java
+[gameover]:./src/GameOver.java

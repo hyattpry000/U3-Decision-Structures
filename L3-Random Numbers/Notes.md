@@ -1,6 +1,6 @@
 # Unit 3 - Decision Structures
 
-## [**L4 Sandbox**][sandbox]
+## [**Quiz Game**][quiz]
 
 ## Random Numbers
 
@@ -22,5 +22,4 @@ Let's create a Math Quiz game. The user will be prompted with an option of choos
 
 Create a new class called `Quiz` which will have 4 methods, each method to create a problem from each operation and assign the answer.
 
-[sandbox]:../L4.java
-[quiz]:../Quiz.java
+[quiz]:./src/QuizGame.java
